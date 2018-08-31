@@ -1,11 +1,7 @@
 {
   "mongoDs": {
-    "host": "localhost",
-    "port": 27017,
-    "url": "",
-    "database": "MSGCollectorDB",
+    "url": "${MONGOLAB_URI}",
     "name": "mongoDs",
-    "maxRows": 2000,
     "connector": "mongodb"
   }
 }
