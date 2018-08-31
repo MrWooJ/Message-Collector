@@ -1,5 +1,10 @@
 'use strict';
 
+const Promise = require('bluebird');
+Promise.config({
+  cancellation: true
+});
+
 var loopback = require('loopback');
 var boot = require('loopback-boot');
 
